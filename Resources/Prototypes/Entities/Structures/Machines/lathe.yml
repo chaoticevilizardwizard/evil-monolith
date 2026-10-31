@@ -523,6 +523,7 @@
     - UniversalOrdinance
     - SmartGun #Smart SMG
     - NFMercenaryTechfabDeprecated
+    - MonoTSFWeaponsDynamicGrenades
     # Mono end
   - type: MaterialStorage
     whitelist:

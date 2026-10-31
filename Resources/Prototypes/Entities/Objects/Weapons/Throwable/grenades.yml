@@ -200,6 +200,11 @@
       path: /Audio/Effects/Grenades/Supermatter/smbeep.ogg
       params:
         volume: -5
+  - type: Explosive #Mono
+    explosionType: DemolitionCharge
+    totalIntensity: 60
+    intensitySlope: 3
+    maxIntensity: 30
   - type: SoundOnTrigger
     removeOnTrigger: true
     sound:
@@ -236,7 +241,7 @@
           path: /Audio/Effects/Grenades/Supermatter/supermatter_end.ogg
           params:
             volume: 5
-      - type: DeleteOnTrigger
+      - type: ExplodeOnTrigger #Mono
 
 - type: entity
   name: whitehole grenade
@@ -264,9 +269,9 @@
         sound:
           path: /Audio/Effects/Grenades/Supermatter/whitehole_loop.ogg
       - type: GravityWell
-        maxRange: 10
-        baseRadialAcceleration: -180
-        baseTangentialAcceleration: -5
+        maxRange: 6 #Mono. was 10
+        baseRadialAcceleration: -20 #Mono. was -180
+        baseTangentialAcceleration: -2 #Mono. was -5
         gravPulsePeriod: 0.01
       - type: SingularityDistortion
         intensity: -200

@@ -67,3 +67,33 @@
     Plastic: 300
     Steel: 300
     Plasma: 300
+
+- type: latheRecipe
+  parent: BaseToolRecipe
+  id: WhiteholeGrenade
+  result: WhiteholeGrenade
+  categories:
+  - FactionEquipment
+  - Weapons
+  - Explosive
+  completetime: 2
+  materials:
+    Plasteel: 300
+    Plastic: 300
+    Plasma: 750
+    UraniumFissile: 100
+
+- type: latheRecipe
+  parent: BaseToolRecipe
+  id: SingularityGrenade
+  result: SingularityGrenade
+  categories:
+  - FactionEquipment
+  - Weapons
+  - Explosive
+  completetime: 20
+  materials:
+    Plasteel: 300
+    Plastic: 300
+    Plasma: 1000
+    UraniumFissile: 200

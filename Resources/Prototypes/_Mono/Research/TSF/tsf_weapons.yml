@@ -73,3 +73,18 @@
   - TsfAdvancedWeapons
   - UniversalMaterialResearchT3
   position: 3, -30
+
+- type: technology
+  id: TsfAdvancedGrenades
+  name: research-technology-tsfmc-advanced-grenades
+  entityIcon: SingularityGrenade
+  discipline: TsfmcWeaponry
+  tier: 3
+  cost: 150000
+  recipeUnlocks:
+  - SingularityGrenade
+  - WhiteholeGrenade
+  technologyPrerequisites:
+  - UniversalMaterialResearchT3
+  - PrintableExplosives
+  position: -1, -26

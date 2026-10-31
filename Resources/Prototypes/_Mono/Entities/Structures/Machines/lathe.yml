@@ -42,6 +42,7 @@
     - MonoTSFWeaponsDynamicRanged
     - MonoTSFVouchersDynamic
     - MonoTSFMiscDynamic
+    - MonoTSFWeaponsDynamicGrenades
     - MonoTSFGearDynamic
     # USSP start
     # - MonoUSSPArmorDynamic
@@ -876,6 +877,7 @@
     - MonoTSFWeaponsDynamicMelee
     - MonoTSFWeaponsDynamicRanged
     - MonoTSFMiscDynamic
+    - MonoTSFWeaponsDynamicGrenades
     - MonoRogueWeaponsDynamicMelee
     - MonoRogueWeaponsDynamicRanged
     - MonoRogueMiscDynamic

@@ -32,3 +32,4 @@ research-technology-tsfmc-advanced-module = TSFMC Advanced Cyborg Module Develop
 research-technology-tsfmc-sandevistan = TSFMC Sandevistan Reverse Engineering
 research-technology-tsfmc-shunt = TSFMC Blacksite Cybernetics
 research-technology-tsfmc-large-explosives = TSFMC Hardbombs
+research-technology-tsfmc-advanced-grenades = Advanced Grenades

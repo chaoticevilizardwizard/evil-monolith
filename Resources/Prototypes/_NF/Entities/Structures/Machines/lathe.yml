@@ -206,6 +206,7 @@
     - MonoTSFWeaponsDynamicMelee
     - MonoTSFWeaponsDynamicRanged
     - MonoTSFMiscDynamic
+    - MonoTSFWeaponsDynamicGrenades
     - UniversalShellAmmo
     - UniversalRailgunAmmo
     - UniversalMissileAmmo
@@ -256,6 +257,7 @@
     - MonoTSFWeaponsDynamicMelee
     - MonoTSFWeaponsDynamicRanged
     - MonoTSFMiscDynamic
+    - MonoTSFWeaponsDynamicGrenades
     - MonoRogueWeaponsDynamicMelee
     - MonoRogueWeaponsDynamicRanged
     - MonoRogueMiscDynamic
@@ -325,6 +327,7 @@
     - MonoTSFWeaponsDynamicMelee
     - MonoTSFWeaponsDynamicRanged
     - MonoTSFMiscDynamic
+    - MonoTSFWeaponsDynamicGrenades
     - MonoRogueWeaponsDynamicMelee
     - MonoRogueWeaponsDynamicRanged
     - MonoRogueMiscDynamic

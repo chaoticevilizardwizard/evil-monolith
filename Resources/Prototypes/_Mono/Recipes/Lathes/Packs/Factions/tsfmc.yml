@@ -49,10 +49,16 @@
   - DemagTSF
   - SutureTSF
   - MeshTSF
-  - NanolaminateFoamGrenadeTSF
   - PortableRecharger
   - MotionDetectorTSF
   - BasicBorgCombatModuleTSF
   - AdvancedBorgCombatModuleTSF
   - AutosurgeonSandevistanTSF
 #  - AutosurgeonShuntTSF
+
+- type: latheRecipePack
+  id: MonoTSFWeaponsDynamicGrenades
+  recipes:
+  - SingularityGrenade
+  - WhiteholeGrenade
+  - NanolaminateFoamGrenadeTSF
