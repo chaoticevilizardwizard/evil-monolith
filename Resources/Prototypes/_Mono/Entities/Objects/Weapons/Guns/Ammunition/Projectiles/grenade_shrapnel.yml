@@ -1,0 +1,20 @@
+- type: entity
+  id: PelletClusterRattlebomb
+  name: rattlebomb pellet
+  categories: [ HideSpawnMenu ]
+  parent: BaseBullet
+  components:
+  - type: Sprite
+    sprite: _DV/Objects/Weapons/Guns/Ammunition/Boxes/bbgun.rsi
+    layers:
+      - state: bbbullet
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 5
+        Structural: 40
+    penetrationThreshold: 80
+  - type: StaminaDamageOnCollide
+    damage: 30
+  - type: TimedDespawn
+    lifetime: 0.5

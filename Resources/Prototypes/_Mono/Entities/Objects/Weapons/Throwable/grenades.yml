@@ -143,3 +143,101 @@
     enabled: true
     radius: 2
     color: "#03b1fc"
+
+
+- type: entity
+  parent: AirGrenade
+  id: FrezonGrenade
+  name: frezon grenade
+  description: A gas grenade that releases frezon, great for rapidly slowing down enemies without hardsuits.
+  components:
+#  - type: Sprite
+#    sprite: Objects/Weapons/Grenades/airboom.rsi
+#  - type: SoundOnTrigger
+#    sound: /Audio/Items/smoke_grenade_smoke.ogg
+#  - type: TimerTriggerVisuals
+#    primingSound:
+#      path: /Audio/Items/smoke_grenade_prime.ogg
+#  - type: OnUseTimerTrigger
+#    delay: 3
+  - type: ReleaseGasOnTrigger
+    removeFraction: 0.25
+    air:
+      volume: 333
+      moles:
+        Frezon: 1039.28
+      temperature: -293.15
+
+- type: entity
+  parent: AirGrenade
+  id: PlasmaGrenade
+  name: plasma grenade
+  description: A gas grenade that releases burning plasma, lowers visablity significantly and makes enemies unable to remove their hardsuits.
+  components:
+#  - type: Sprite
+#    sprite: Objects/Weapons/Grenades/airboom.rsi
+#  - type: SoundOnTrigger
+#    sound: /Audio/Items/smoke_grenade_smoke.ogg
+#  - type: TimerTriggerVisuals
+#    primingSound:
+#      path: /Audio/Items/smoke_grenade_prime.ogg
+#  - type: OnUseTimerTrigger
+#    delay: 3
+  - type: ReleaseGasOnTrigger
+    removeFraction: 0.25
+    air:
+      volume: 150
+      moles:
+        Plasma: 350
+      temperature: 800
+
+- type: entity
+  parent: AirGrenade
+  id: TritiumGrenade
+  name: hellfire grenade
+  description: A gas grenade that releases a superheated mixture of plasma and tritium, burns through solid steel with ease.
+  components:
+#  - type: Sprite
+#    sprite: Objects/Weapons/Grenades/airboom.rsi
+#  - type: SoundOnTrigger
+#    sound: /Audio/Items/smoke_grenade_smoke.ogg
+#  - type: TimerTriggerVisuals
+#    primingSound:
+#      path: /Audio/Items/smoke_grenade_prime.ogg
+#  - type: OnUseTimerTrigger
+#    delay: 3
+  - type: ReleaseGasOnTrigger
+    removeFraction: 0.25
+    air:
+      volume: 150
+      moles:
+        Plasma: 150
+        Tritium: 350
+      temperature: 2000
+
+- type: entity
+  parent: ProjectileGrenadeBase
+  id: RattlebombGrenade
+  name: M78 'Rattlebomb' grenade
+  description: A newly developed fragmentation grenade of the PDV, an explosive loaded with seventy miniature lead pellets meant for the destruction of machinery. Nicknamed the 'Rattlebomb' because of the sound it makes jingling in a chest rig.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Grenades/stingergrenade.rsi
+    layers:
+    - state: icon
+      map: ["enum.TriggerVisualLayers.Base"]
+  - type: ProjectileGrenade
+    fillPrototype: PelletClusterRattlebomb
+    capacity: 70
+  - type: EmitSoundOnTrigger
+    sound:
+      path: "/Audio/Effects/flash_bang.ogg"
+  - type: SpawnOnTrigger
+    proto: GrenadeFlashEffect
+  - type: OnUseTimerTrigger
+    initialBeepDelay: 0
+    beepInterval: 1
+    delay: 3.5
+  - type: TimerTriggerVisuals
+    primingSound:
+      path: /Audio/Effects/countdown.ogg
