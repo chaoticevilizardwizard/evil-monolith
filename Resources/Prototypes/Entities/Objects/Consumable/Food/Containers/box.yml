@@ -351,7 +351,7 @@
   parent: BoxCardboard
   id: FoodBoxDonkpocket
   name: box of donk-pockets
-  description: 'Instructions: Heat in microwave. Product will cool if not eaten within seven minutes.'
+  description: A factory produced box of meat filled bread pockets, while being over a hundred years old the food within remains eerily fresh. This is the standard flavor. #Mono
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Baked/donkpocket.rsi
@@ -374,6 +374,7 @@
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketSpicy
   name: box of spicy-flavoured donk-pockets
+  description: A factory produced box of meat filled bread pockets, while being over a hundred years old the food within remains eerily fresh. This is the spicy flavor. #Mono
   components:
   - type: Sprite
     state: spicy-box
@@ -388,6 +389,7 @@
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketTeriyaki
   name: box of teriyaki-flavoured donk-pockets
+  description: A factory produced box of meat filled bread pockets, while being over a hundred years old the food within remains eerily fresh. This is the teriyaki flavor. #Mono
   components:
   - type: Sprite
     state: teriyaki-box
@@ -402,6 +404,7 @@
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketPizza
   name: box of pizza-flavoured donk-pockets
+  description: A factory produced box of meat filled bread pockets, while being over a hundred years old the food within remains eerily fresh. This is the pizza flavor. #Mono
   components:
   - type: Sprite
     state: pizza-box
@@ -416,6 +419,7 @@
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketStonk
   name: box of limited edition stonk-pockets
+  description: A factory produced box of meat filled bread pockets, while being over a hundred years old the food within remains eerily fresh. This is the stonks flavor. #Mono
   components:
   - type: Sprite
     state: stonk-box
@@ -430,6 +434,7 @@
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketCarp
   name: box of carp-pockets
+  description: A factory produced box of meat filled bread pockets, while being over a hundred years old the food within remains eerily fresh. This is the carp flavor. #Mono
   components:
   - type: Sprite
     state: carp-box
@@ -442,6 +447,7 @@
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketBerry
   name: box of berry-flavoured donk-pockets
+  description: A factory produced box of meat filled bread pockets, while being over a hundred years old the food within remains eerily fresh. This is the berry flavor. #Mono
   components:
   - type: Sprite
     state: berry-box
@@ -456,6 +462,7 @@
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketHonk
   name: box of banana-flavoured donk-pockets
+  description: A factory produced box of meat filled bread pockets, while being over a hundred years old the food within remains eerily fresh. This is the banana flavor. #Mono
   components:
   - type: Sprite
     state: banana-box
@@ -470,7 +477,7 @@
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketDink
   name: box of dink-pockets
-  description: Net Zero carbohydrates! No need for heating!
+  description: A factory produced box of meat filled bread pockets, while being over a hundred years old the food within remains eerily fresh. This is the veggie flavor. #Mono
   components:
   - type: Sprite
     state: dink-box

@@ -1,0 +1,653 @@
+- type: vendingMachineInventory
+  id: UndergroundClothingUniformOuterEVA
+  startingInventory:
+  # === JUMPSUITS ===
+  # Cargo & Salvage
+    ClothingUniformJumpsuitCargo: 30
+    ClothingUniformJumpsuitSalvageSpecialist: 30
+  # Service
+    ClothingUniformJumpsuitBartender: 30
+    ClothingUniformJumpsuitBartenderPurple: 30
+  # Atmos
+    ClothingUniformJumpsuitAtmos: 30
+    ClothingUniformJumpsuitAtmosCasual: 30
+  # Chaplain
+    ClothingUniformJumpsuitChaplain: 30
+  # Chef
+    ClothingUniformJumpsuitChef: 30
+  # Chemistry
+    ClothingUniformJumpsuitChemistry: 30
+  # Library
+    ClothingUniformJumpsuitCurator: 30
+    ClothingUniformJumpsuitLibrarian: 30
+  # Detective
+    ClothingUniformJumpsuitDetective: 30
+    ClothingUniformJumpsuitDetectiveGrey: 30
+  # Engineering
+    ClothingUniformJumpsuitEngineering: 30
+    ClothingUniformJumpsuitEngineeringHazard: 30
+    ClothingUniformJumpsuitSeniorEngineer: 30
+    ClothingUniformJumpsuitChiefEngineer: 30
+    ClothingUniformJumpsuitChiefEngineerTurtle: 30
+  # Genetics
+    ClothingUniformJumpsuitGenetics: 30
+  # Hydroponics
+    ClothingUniformJumpsuitHydroponics: 30
+  # Janitor
+    ClothingUniformJumpsuitJanitor: 30
+  # Medical
+    ClothingUniformJumpsuitParamedic: 30
+    ClothingUniformJumpsuitMedicalDoctor: 30
+    ClothingUniformJumpsuitVirology: 30
+    ClothingUniformJumpsuitSeniorPhysician: 30
+    ClothingUniformJumpsuitPsychologist: 30
+    ClothingUniformJumpsuitBrigmedic: 30
+  # Roboticist
+    ClothingUniformJumpsuitRoboticist: 30
+  # Science
+    ClothingUniformJumpsuitScientist: 30
+    ClothingUniformJumpsuitScientistFormal: 30
+    ClothingUniformJumpsuitSeniorResearcher: 30
+    ClothingUniformJumpsuitResearchDirector: 30
+  # Lawyer
+    ClothingUniformJumpsuitLawyerBlue: 30
+    ClothingUniformJumpsuitLawyerPurple: 30
+    ClothingUniformJumpsuitLawyerRed: 30
+    ClothingUniformJumpsuitLawyerBlack: 30
+    ClothingUniformJumpsuitLawyerGood: 30
+  # Other
+    ClothingUniformOveralls: 30
+    ClothingUniformJumpsuitPrivateSec: 30
+
+  # === JUMPSKIRTS ===
+  # Janitor
+    ClothingUniformJumpskirtJanitor: 30
+    ClothingUniformJumpskirtJanimaid: 30
+    ClothingUniformJumpskirtJanimaidmini: 30
+  # Genetics
+    ClothingUniformJumpskirtGenetics: 30
+  # Engineering
+    ClothingUniformJumpskirtChiefEngineer: 30
+    ClothingUniformJumpskirtChiefEngineerTurtle: 30
+    ClothingUniformJumpskirtCargo: 30
+    ClothingUniformJumpskirtSeniorEngineer: 30
+    ClothingUniformJumpskirtEngineering: 30
+  # Bartender
+    ClothingUniformJumpskirtBartender: 30
+  # Atmos
+    ClothingUniformJumpskirtAtmos: 30
+  # Chaplain
+    ClothingUniformJumpskirtChaplain: 30
+  # Chef
+    ClothingUniformJumpskirtChef: 30
+  # Chemistry
+    ClothingUniformJumpskirtChemistry: 30
+  # Library
+    ClothingUniformJumpskirtCurator: 30
+    ClothingUniformJumpskirtLibrarian: 30
+  # Detective
+    ClothingUniformJumpskirtDetective: 30
+    ClothingUniformJumpskirtDetectiveGrey: 30
+  # Hydroponics
+    ClothingUniformJumpskirtHydroponics: 30
+  # Medical
+    ClothingUniformJumpskirtMedicalDoctor: 30
+    ClothingUniformJumpskirtBrigmedic: 30
+    ClothingUniformJumpskirtParamedic: 30
+    ClothingUniformJumpskirtVirology: 30
+    ClothingUniformJumpskirtSeniorPhysician: 30
+    ClothingUniformJumpskirtPsychologist: 30
+  # Roboticist
+    ClothingUniformJumpskirtRoboticist: 30
+  # Science
+    ClothingUniformJumpskirtScientist: 30
+    ClothingUniformJumpskirtSeniorResearcher: 30
+    ClothingUniformJumpskirtResearchDirector: 30
+  # Special
+    ClothingUniformJumpskirtOfLife: 30
+    UniformMaid: 30
+  # Lawyer
+    ClothingUniformJumpskirtLawyerBlue: 30
+    ClothingUniformJumpskirtLawyerPurple: 30
+    ClothingUniformJumpskirtLawyerRed: 30
+    ClothingUniformJumpskirtLawyerBlack: 30
+    ClothingUniformJumpskirtLawyerGood: 30
+  # Mercenary/Security
+    ClothingUniformJumpskirtMercenary: 30
+    ClothingUniformJumpskirtPrivateSec: 30
+
+  # === SPECIAL UNIFORMS ===
+  # Monastic
+    ClothingUniformJumpsuitMonasticRobeDark: 30
+    ClothingUniformJumpsuitMonasticRobeLight: 30
+    ClothingUniformJumpsuitChaplainPilgrimVest: 30
+  # Scrubs
+    UniformScrubsColorGreen: 30
+    UniformScrubsColorBlue: 30
+    UniformScrubsColorPurple: 30
+
+  # === COMBAT & MERCENARY SUITS ===
+  # CCE Combat Suits
+    ClothingUniformJumpsuitCombatSuitCCEBasic: 30
+    ClothingUniformJumpsuitCombatSuitCCEWorn: 30
+    ClothingUniformJumpsuitCombatSuitCCEBleached: 30
+    ClothingUniformJumpsuitCombatSuitCCEDesert: 30
+  # Camouflage
+    ClothingUniformJumpsuitCombatSuitGrassland: 30
+    ClothingUniformJumpsuitCombatSuitMudland: 30
+    ClothingUniformJumpsuitCombatSuitMisko: 30
+    ClothingUniformJumpsuitCombatSuitLampartFlag: 30
+    ClothingUniformJumpsuitCombatSuitLampart: 30
+    ClothingUniformJumpsuitCombatSuitSummerFloraFlag: 30
+    ClothingUniformJumpsuitCombatSuitSummerFlora: 30
+    ClothingUniformJumpsuitCombatSuitUrbanWhite: 30
+  # Digital Camouflage
+    ClothingUniformJumpsuitCombatSuitDigitalBlack: 30
+    ClothingUniformJumpsuitCombatSuitDigitalBlue: 30
+    ClothingUniformJumpsuitCombatSuitDigitalRed: 30
+    ClothingUniformJumpsuitCombatSuitDigitalGreenTan: 30
+  # Other
+    ClothingUniformJumpsuitMercenary: 30
+
+  # === OUTERWEAR ===
+  # Winter Coats
+    ClothingOuterWinterCargo: 30
+    ClothingOuterWinterMiner: 30
+    ClothingOuterWinterAtmos: 30
+    ClothingOuterWinterChef: 30
+    ClothingOuterWinterEngi: 30
+    ClothingOuterWinterCE: 30
+    ClothingOuterWinterGen: 30
+    ClothingOuterWinterHydro: 30
+    ClothingOuterWinterJani: 30
+    ClothingOuterWinterRobo: 30
+    ClothingOuterWinterRD: 30
+    ClothingOuterWinterMed: 30
+    ClothingOuterWinterChem: 30
+    ClothingOuterWinterViro: 30
+    ClothingOuterWinterSci: 30
+    ClothingOuterWinterPara: 30
+  # Jackets & Hoodies
+    ClothingOuterCoatDetectiveLoadout: 30
+    ClothingOuterCoatDetectiveLoadoutGrey: 30
+    ClothingOuterHoodieBlack: 30
+    ClothingOuterHoodieGrey: 30
+    ClothingOuterHoodieChaplain: 30
+    ClothingOuterJacketChef: 30
+  # Aprons
+    ClothingOuterApronChef: 30
+    ClothingOuterApronBotanist: 30
+  # Religious & Formal
+    ClothingOuterPlagueSuit: 30
+    ClothingOuterNunRobe: 30
+    ClothingOuterCoatBishop: 30
+    ClothingOuterCoatCardinal: 30
+    ClothingOuterCoatWitchHunter: 30
+  # Lab Coats
+    ClothingOuterCoatLab: 30
+    ClothingOuterCoatLabChem: 30
+    ClothingOuterCoatLabGene: 30
+    ClothingOuterCoatLabViro: 30
+    ClothingOuterCoatLabSeniorPhysician: 30
+    ClothingOuterCoatRobo: 30
+    ClothingOuterCoatRnd: 30
+    ClothingOuterCoatLabSeniorResearcher: 30
+    ClothingOuterCoatParamedicWB: 30
+    ClothingOuterHospitalGown: 30
+  # Vests
+    ClothingOuterVestHazard: 30
+  # Other Outerwear
+    ClothingOuterDavidsJacket: 30
+    ClothingOuterSuitFire: 30
+    ClothingOuterBioJanitor: 30
+    ClothingOuterBioScientist: 30
+    ClothingOuterCoatAMG: 30
+  # Armor Vests/Webvests
+    ClothingOuterVest: 30
+    ClothingOuterVestDetective: 30
+    ClothingOuterArmorBPVestLight: 30
+    ClothingOuterArmorBPVestMedium: 30
+    ClothingOuterArmorBPVestHeavy: 30
+    ClothingOuterArmorBPVestPolyvalent: 30
+    ClothingOuterArmorBPVestStabproof: 30
+    ClothingOuterVestWebMercenary: 30
+    ClothingOuterVestWebMercenaryBlack: 30
+
+  # === EVA SUITS ===
+    ClothingOuterEVASuitCargo: 30
+    ClothingOuterEVASuitSalvage: 30
+    ClothingOuterEVASuitChaplain: 30
+    ClothingOuterEVASuitEngineer: 30
+    ClothingOuterEVASuitHydro: 30
+    ClothingOuterEVASuitJanitor: 30
+    ClothingOuterEVASuitMedic: 30
+    ClothingOuterHardsuitVoidParamed: 30 #It says hardsuit but its a light voidsuit, close enough to eva
+    ClothingOuterBioVirology: 30
+    ClothingOuterEVASuitScientist: 30
+
+- type: vendingMachineInventory
+  id: UndergroundClothingHandShoe
+  startingInventory:
+  # === GLOVES ===
+  # Standard Color Gloves
+    ClothingHandsGlovesColorBlack: 30
+    ClothingHandsGlovesColorPurple: 30
+  # Special Gloves
+    ClothingHandsGlovesFingerless: 30
+    ClothingHandsGlovesLatex: 30
+    ClothingHandsGlovesNitrile: 30
+    ClothingHandsGlovesLeather: 30
+    ClothingHandsGlovesJanitor: 30
+    ClothingHandsGlovesRobohands: 30
+  # Combat Gloves
+    ClothingHandsGlovesCombat: 30
+    ClothingHandsGlovesTacticalCombatTan: 30
+    ClothingHandsGlovesTacticalCombatBlack: 30
+    ClothingHandsGlovesTacticalCombatRangerGreen: 30
+    ClothingHandsGlovesTacticalCombatOlive: 30
+    ClothingHandsGlovesTacticalCombatCoyoteBrown: 30
+    ClothingHandsGlovesTacticalCombatWhite: 30
+
+  # === SHOES ===
+  # Standard Shoes
+    ClothingShoesColorBlack: 30
+    ClothingShoesColorWhite: 30
+    ClothingShoesColorBlue: 30
+    ClothingShoesColorBrown: 30
+    ClothingShoesColorGreen: 30
+    ClothingShoesColorOrange: 30
+    ClothingShoesColorRed: 30
+    ClothingShoesColorYellow: 30
+    ClothingShoesColorPurple: 30
+  # Special Shoes
+    ClothingShoesChef: 30
+    ClothingShoesBootsCowboyBlack: 30
+  # Work Boots
+    ClothingShoesBootsSalvage: 30
+    ClothingShoesBootsLaceup: 30
+    ClothingShoesBootsWork: 30
+    ClothingShoesBootsJack: 30
+    ClothingShoesBootsCombat: 30
+  # Winter Boots
+    ClothingShoesBootsWinterCargo: 30
+    ClothingShoesBootsWinterMiner: 30
+    ClothingShoesBootsWinterAtmos: 30
+    ClothingShoesBootsWinterChef: 30
+    ClothingShoesBootsWinterChem: 30
+    ClothingShoesBootsWinterEngi: 30
+    ClothingShoesBootsWinterChiefEngineer: 30
+    ClothingShoesBootsWinterGenetics: 30
+    ClothingShoesBootsWinterHydro: 30
+    ClothingShoesBootsWinterJani: 30
+    ClothingShoesBootsWinterMed: 30
+    ClothingShoesBootsWinterParamedic: 30
+    ClothingShoesBootsWinterViro: 30
+    ClothingShoesBootsWinterRobo: 30
+    ClothingShoesBootsWinterSci: 30
+    ClothingShoesBootsWinterRD: 30
+  # Tactical Boots
+    ClothingShoesTacticalSwatTan: 30
+    ClothingShoesTacticalSwatOlive: 30
+    ClothingShoesTacticalSwatBlack: 30
+    ClothingShoesTacticalSwatRangerGreen: 30
+    ClothingShoesTacticalSwatCoyoteBrown: 30
+    ClothingShoesTacticalSwatWhite: 30
+    ClothingShoesBootsMercenary: 30
+
+  # === BELTS ===
+  # Standard Belts
+    ClothingBeltPilot: 30
+    ClothingBeltUtility: 30
+    ClothingBeltAssault: 30
+    ClothingBeltSheath: 30
+    ClothingBeltChampion: 30
+  # Departmental Belts
+    ClothingBeltChiefEngineer: 30
+    ClothingBeltChef: 30
+    ClothingBeltJanitor: 30
+    ClothingBeltPlant: 30
+    ClothingBeltMedical: 30
+    ClothingBeltMedicalEMT: 30
+    ClothingBeltSecurity: 30
+  # Special Belts
+    ClothingBeltBandolier: 30
+    ClothingBeltQuiver: 30
+    ClothingBeltStorageWaistbag: 30
+    ClothingBeltSuspendersRed: 30
+    ClothingBeltSuspendersBlack: 30
+  # Bags
+    ChemBag: 30
+    BooksBag: 30
+  # Webbings
+    ClothingBeltSalvageWebbing: 30
+    ClothingBeltMercenaryWebbing: 30
+    ClothingBeltMilitaryWebbing: 30
+    ClothingBeltWebbingsNormalBlack: 30
+    ClothingBeltWebbingsNormalTan: 30
+    ClothingBeltWebbingsNormalRangerGreen: 30
+    ClothingBeltWebbingsNormalOlive: 30
+  # Big Webbings
+    ClothingBeltWebbingsBigBase: 30
+    ClothingBeltWebbingsBigBlack: 30
+    ClothingBeltWebbingsBigTan: 30
+    ClothingBeltWebbingsBigRangerGreen: 30
+    ClothingBeltWebbingsBigOlive: 30
+
+- type: vendingMachineInventory
+  id: UndergroundClothingHeadshot
+  startingInventory:
+  # === HATS ===
+  # Soft Hats
+    ClothingHeadHatCargosoft: 30
+    ClothingHeadHatCargosoftFlipped: 30
+    ClothingHeadHatPurplesoft: 30
+    ClothingHeadHatParamedicsoft: 30
+    ClothingHeadHatCorpsoft: 30
+  # Fedoras
+    ClothingHeadHatFedoraBrown: 30
+    ClothingHeadHatFedoraGrey: 30
+  # Hats
+    ClothingHeadHatBowlerHat: 30
+    ClothingHeadHatTophat: 30
+    ClothingHeadHatChef: 30
+    ClothingHeadNurseHat: 30
+    ClothingHeadHatTrucker: 30
+    ClothingHeadHatFez: 30
+    ClothingHeadHatPlaguedoctor: 30
+    ClothingHeadHatKippah: 30
+    ClothingHeadHatWideBrimmed: 30
+    ClothingHeadHatPilgrim: 30
+    ClothingHeadHatCowboyBlack: 30
+  # Berets
+    ClothingHeadHatBeret: 30
+    ClothingHeadHatBeretFrench: 30
+    ClothingHeadHatBeretMercenary: 30
+    ClothingHeadHatBeretEngineering: 30
+    ClothingHeadHatBeretMedic: 30
+    ClothingHeadHatBeretBrigmedic: 30
+    ClothingHeadHatBeretSeniorPhysician: 30
+    ClothingHeadHatBeretCmo: 30
+    ClothingHeadHatBeretRND: 30
+    ClothingHeadHatBeretQM: 30
+    ClothingHeadHatBeretSecurity: 30
+  # Special Hats
+    ClothingHeadHatBishopMitre: 30
+    ClothingHeadHatCardinal: 30
+    ClothingHeadHatHoodNunHood: 30
+    ClothingHeadHatWitch: 30
+    ClothingHeadHatWitch1: 30
+    ClothingHeadHatWitchhunter: 30
+  # Headbands
+    ClothingHeadBandBrown: 30
+    ClothingHeadBandBotany: 30
+    ClothingHeadBandSkull: 30
+    ClothingHeadBandRed: 30
+    ClothingHeadBandMercenary: 30
+  # Surgical Caps
+    ClothingHeadHatSurgcapGreen: 30
+    ClothingHeadHatSurgcapBlue: 30
+    ClothingHeadHatSurgcapPurple: 30
+
+  # === HELMETS ===
+  # Hardhats
+    ClothingHeadHatHardhatYellow: 30
+    ClothingHeadHatHardhatOrange: 30
+  # Basic Helmets
+    ClothingHeadHelmetBasic: 30
+    ClothingHeadHelmetJustice: 30
+    ClothingHeadBPHelmetLight: 30
+    ClothingHeadHelmetMercenary: 30
+    ClothingHeadHelmetMercenaryBlack: 30
+    ClothingHeadHelmetFire: 30
+  # Bio Hoods
+    ClothingHeadHatHoodBioJanitor: 30
+    ClothingHeadHatHoodBioVirology: 30
+    ClothingHeadHatHoodBioScientist: 30
+
+  # === MASKS ===
+  # Gas Masks
+    ClothingMaskGas: 30
+    ClothingMaskGasAtmos: 30
+    ClothingMaskGasExplorer: 30
+    ClothingMaskGasSecurity: 30
+  # Medical Masks
+    ClothingMaskBreathMedical: 30
+    ClothingMaskSterile: 30
+    ClothingMaskPlague: 30
+  # Other Masks
+    ClothingMaskItalianMoustache: 30
+  # SOM Masks
+    ClothingMaskSOM40: 30
+    ClothingMaskSOM41: 30
+    ClothingMaskSOM42: 30
+
+  # === GLASSES ===
+  # Standard Glasses
+    ClothingEyesGlasses: 30
+    ClothingEyesGlassesSunglasses: 30
+    ClothingEyesGlassesJamjar: 30
+  # HUD Glasses
+    ClothingEyesHudBeer: 30
+    ClothingEyesHudMedical: 30
+  # Eyepatches
+    ClothingEyesEyepatchHudBeer: 30
+    ClothingEyesEyepatchHudMedical: 30
+  # Other
+    ClothingEyesBlindfold: 30
+  # Ballistic Eyewear
+    ClothingEyesBallisticGogglesRed: 30
+    ClothingEyesBallisticGlassesRed: 30
+    ClothingEyesBallisticGogglesGreen: 30
+    ClothingEyesBallisticGlassesGreen: 30
+    ClothingEyesBallisticGogglesOrange: 30
+    ClothingEyesBallisticGlassesOrange: 30
+    ClothingEyesGlassesMercenary: 30
+
+  # === HEADSETS ===
+  # Departmental Headsets
+    ClothingHeadsetCargo: 30
+    ClothingHeadsetMining: 30
+    ClothingHeadsetEngineering: 30
+    ClothingHeadsetMedical: 30
+    ClothingHeadsetRobotics: 30
+    ClothingHeadsetScience: 30
+  # Alternate Headsets
+    ClothingHeadsetAltCargo: 30
+    ClothingHeadsetAltEngineering: 30
+    ClothingHeadsetAltScience: 30
+
+- type: vendingMachineInventory
+  id: UndergroundClothingDonkBags
+  startingInventory:
+  # === NECK ===
+  # Scarves
+    ClothingNeckScarfStripedRed: 30
+    ClothingNeckScarfStripedBlue: 30
+    ClothingNeckScarfStripedGreen: 30
+    ClothingNeckScarfStripedBlack: 30
+    ClothingNeckScarfStripedBrown: 30
+    ClothingNeckScarfStripedLightBlue: 30
+    ClothingNeckScarfStripedOrange: 30
+    ClothingNeckScarfStripedPurple: 30
+    ClothingNeckScarfStripedZebra: 30
+  # Religious Neckwear
+    ClothingNeckScarfChaplainStole: 30
+    ClothingNeckStoleChaplain: 30
+    ClothingBeltChaplainSash: 30
+  # Ties
+    ClothingNeckTieDet: 30
+    ClothingNeckTieSci: 30
+  # Neck Gaiter
+    ClothingMaskNeckGaiterRed: 30
+  # Cloaks & Mantles
+    ClothingNeckCloakMiner: 30
+    ClothingNeckCloakHerald: 30
+    ClothingNeckCloakGoliathCloak: 30
+    ClothingNeckCloakCe: 30
+    ClothingNeckCloakRd: 30
+    ClothingNeckMantleRD: 30
+    ClothingNeckMantleCE: 30
+  # Badges & Tags
+    ClothingNeckLawyerbadge: 30
+    ClothingNeckIFFNeutral: 30
+    ClothingNeckIFFRed: 30
+    ClothingNeckIFFGreen: 30
+    ClothingNeckIFFBlue: 30
+    ClothingNeckIFFCyan: 30
+    ClothingNeckIFFOrange: 30
+    ClothingNeckIFFPurple: 30
+    CDDogtags: 30
+
+  # === BACKPACKS ===
+  # Regular Backpacks
+    ClothingBackpackCargo: 30
+    ClothingBackpackSalvage: 30
+    ClothingBackpackAtmospherics: 30
+    ClothingBackpackChemistry: 30
+    ClothingBackpackEngineering: 30
+    ClothingBackpackGenetics: 30
+    ClothingBackpackHydroponics: 30
+    ClothingBackpackMedical: 30
+    ClothingBackpackVirology: 30
+    ClothingBackpackScience: 30
+    ClothingBackpackSecurity: 30
+  # Satchels
+    ClothingBackpackSatchelCargo: 30
+    ClothingBackpackSatchelSalvage: 30
+    ClothingBackpackSatchelAtmospherics: 30
+    ClothingBackpackSatchelChemistry: 30
+    ClothingBackpackSatchelEngineering: 30
+    ClothingBackpackSatchelGenetics: 30
+    ClothingBackpackSatchelHydroponics: 30
+    ClothingBackpackSatchelMedical: 30
+    ClothingBackpackSatchelVirology: 30
+    ClothingBackpackSatchelScience: 30
+    ClothingBackpackSatchelSecurity: 30
+  # Duffel Bags
+    ClothingBackpackDuffelCargo: 30
+    ClothingBackpackDuffelSalvage: 30
+    ClothingBackpackDuffelAtmospherics: 30
+    ClothingBackpackDuffelChemistry: 30
+    ClothingBackpackDuffelEngineering: 30
+    ClothingBackpackDuffelGenetics: 30
+    ClothingBackpackDuffelHydroponics: 30
+    ClothingBackpackDuffelMedical: 30
+    ClothingBackpackDuffelVirology: 30
+    ClothingBackpackDuffelScience: 30
+    ClothingBackpackDuffelSecurity: 30
+  # Messenger Bags
+    ClothingBackpackMessengerCargo: 30
+    ClothingBackpackMessengerSalvage: 30
+    ClothingBackpackMessengerAtmospherics: 30
+    ClothingBackpackMessengerChemistry: 30
+    ClothingBackpackMessengerEngineering: 30
+    ClothingBackpackMessengerGenetics: 30
+    ClothingBackpackMessengerHydroponics: 30
+    ClothingBackpackMessengerJanitor: 30
+    ClothingBackpackMessengerMedical: 30
+    ClothingBackpackMessengerVirology: 30
+    ClothingBackpackMessengerScience: 30
+    ClothingBackpackMessengerSecurity: 30
+  # Tactical Duffels
+    ClothingBackpackDuffelTacticalDuffelTan: 30
+    ClothingBackpackDuffelTacticalDuffelOlive: 30
+    ClothingBackpackDuffelTacticalDuffelBlack: 30
+    ClothingBackpackDuffelTacticalDuffelRangerGreen: 30
+    ClothingBackpackDuffelTacticalDuffelCoyoteBrown: 30
+    ClothingBackpackDuffelTacticalDuffelWhite: 30
+  # Mercenary Backpacks
+    ClothingBackpackMercenary: 30
+    ClothingBackpackDuffelMercenary: 30
+    ClothingBackpackSatchelMercenary: 30
+    ClothingBackpackMessengerMercenary: 30
+
+  # === ARMBANDS ===
+  # White & Light Colors
+    ClothingArmbandUNSA: 30
+    ClothingArmbandUSA: 30
+    ClothingArmbandWhite: 30
+    ClothingArmbandGray: 30
+    ClothingArmbandLightBlue: 30
+  # Dark Colors
+    ClothingArmbandBlack: 30
+    ClothingArmbandDarkRed: 30
+    ClothingArmbandRed: 30
+    ClothingArmbandDarkGreen: 30
+    ClothingArmbandGreen: 30
+    ClothingArmbandDarkBlue: 30
+    ClothingArmbandBlue: 30
+    ClothingArmbandDarkPurple: 30
+    ClothingArmbandPurple: 30
+    ClothingArmbandDarkYellow: 30
+    ClothingArmbandYellow: 30
+
+  # === BALACLAVAS ===
+  # Ski Mask - Full Face
+    ClothingBalaclavaSkiMaskBlack: 30
+    ClothingBalaclavaSkiMaskGray: 30
+    ClothingBalaclavaSkiMaskWhite: 30
+    ClothingBalaclavaSkiMaskRed: 30
+    ClothingBalaclavaSkiMaskGreen: 30
+    ClothingBalaclavaSkiMaskBlue: 30
+    ClothingBalaclavaSkiMaskPurple: 30
+    ClothingBalaclavaSkiMaskYellow: 30
+    ClothingBalaclavaSkiMaskTan: 30
+    ClothingBalaclavaSkiMaskRangerGreen: 30
+    ClothingBalaclavaSkiMaskCoyoteBrown: 30
+  # Ski Mask - Mouth Cover
+    ClothingBalaclavaSkiMaskMouthBlack: 30
+    ClothingBalaclavaSkiMaskMouthGray: 30
+    ClothingBalaclavaSkiMaskMouthWhite: 30
+    ClothingBalaclavaSkiMaskMouthRed: 30
+    ClothingBalaclavaSkiMaskMouthGreen: 30
+    ClothingBalaclavaSkiMaskMouthBlue: 30
+    ClothingBalaclavaSkiMaskMouthPurple: 30
+    ClothingBalaclavaSkiMaskMouthYellow: 30
+    ClothingBalaclavaSkiMaskMouthTan: 30
+    ClothingBalaclavaSkiMaskMouthRangerGreen: 30
+    ClothingBalaclavaSkiMaskMouthCoyoteBrown: 30
+  # Classic - Full Face
+    ClothingBalaclavaClassicBlack: 30
+    ClothingBalaclavaClassicGray: 30
+    ClothingBalaclavaClassicWhite: 30
+    ClothingBalaclavaClassicRed: 30
+    ClothingBalaclavaClassicGreen: 30
+    ClothingBalaclavaClassicBlue: 30
+    ClothingBalaclavaClassicPurple: 30
+    ClothingBalaclavaClassicYellow: 30
+    ClothingBalaclavaClassicTan: 30
+    ClothingBalaclavaClassicRangerGreen: 30
+    ClothingBalaclavaClassicCoyoteBrown: 30
+  # Classic - Mouth Cover
+    ClothingBalaclavaClassicMouthBlack: 30
+    ClothingBalaclavaClassicMouthGray: 30
+    ClothingBalaclavaClassicMouthWhite: 30
+    ClothingBalaclavaClassicMouthRed: 30
+    ClothingBalaclavaClassicMouthGreen: 30
+    ClothingBalaclavaClassicMouthBlue: 30
+    ClothingBalaclavaClassicMouthPurple: 30
+    ClothingBalaclavaClassicMouthYellow: 30
+    ClothingBalaclavaClassicMouthTan: 30
+    ClothingBalaclavaClassicMouthRangerGreen: 30
+    ClothingBalaclavaClassicMouthCoyoteBrown: 30
+
+  # === HELMET ACCESSORIES ===
+  # Helmet Attachments
+    ClothingHelmetAttachmentGogglesCoverOlive: 30
+    ClothingHelmetAttachmentGogglesCoverTan: 30
+    ClothingHelmetAttachmentGogglesCoverBlack: 30
+    ClothingHelmetAttachmentGogglesCoverRedDigital: 30
+  # Helmet Covers
+    ClothingHelmetCoverCCEBase: 30
+    ClothingHelmetCoverCCEDesert: 30
+    ClothingHelmetCoverRedDigital: 30
+    ClothingHelmetCoverHelmetMount: 30
+    ClothingHelmetCoverBlack: 30
+    ClothingHelmetCoverTan: 30
+    ClothingHelmetCoverRangerGreen: 30
+    ClothingHelmetCoverOlive: 30
+    ClothingHelmetCoverWhite: 30
+
+  # === MISC ===
+    BriefcaseBrown: 30
+    Cane: 30

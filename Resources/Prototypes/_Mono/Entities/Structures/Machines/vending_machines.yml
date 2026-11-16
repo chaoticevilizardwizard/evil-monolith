@@ -85,7 +85,7 @@
   - type: CurrencyInjectionTarget
     company: Underground
     radioChannel: Syndicate
-    injectionAlert: underground-currency-injection-alert 
+    injectionAlert: underground-currency-injection-alert
 
 - type: entity
   parent: VendingMachineCredit
@@ -318,3 +318,83 @@
   components:
   - type: VendingMachine
     pack: CrocusPDVArmory
+
+#Fugitive outfitting vends
+- type: entity
+  parent: [VendingMachineAstroVend, BaseStructureDisableAnchoring]
+  id: VendingMachineUndergroundClothingUniformOuterEVAPOI
+  name: FugiFits
+  description: Sells a wide variety of uniforms, jackets, and other outerwear for those running from the law.
+  suffix: POI
+  components:
+  - type: VendingMachine
+    pack: UndergroundClothingUniformOuterEVA
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+  - type: MarketModifier
+    mod: 1.5
+  - type: AccessReader
+  - type: Advertise
+    pack: SyndieDrobeAds
+  - type: SpeakOnUIClosed
+    pack: SyndieDrobeGoodbyes
+  - type: Sprite
+    sprite: Structures/Machines/VendingMachines/syndiedrobe.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+
+- type: entity
+  parent: VendingMachineUndergroundClothingUniformOuterEVAPOI
+  id: VendingMachineUndergroundClothingOutlawjohnPOI
+  name: Outlaw John's
+  description: Sells just about every glove, shoe, or belt you could dream of, many of them look to have been used previously.
+  suffix: POI
+  components:
+  - type: VendingMachine
+    pack: UndergroundClothingOutlawJohn
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+
+- type: entity
+  parent: VendingMachineUndergroundClothingUniformOuterEVAPOI
+  id: VendingMachineUndergroundClothingHeadshotPOI
+  name: Headshot
+  description: Stocked with brims, masks, glasses, and headsets letting you be anybody you 'wanna.
+  suffix: POI
+  components:
+  - type: VendingMachine
+    pack: UndergroundClothingHeadshot
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+  - type: Sprite
+    sprite: _Mono/Structures/Machines/VendingMachines/headshot.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+
+- type: entity
+  parent: VendingMachineUndergroundClothingUniformOuterEVAPOI
+  id: VendingMachineUndergroundClothingDonkBagsPOI
+  name: DonkBags
+  description: An old but refitted vending machine first produced by the long defunct Donk-Co to provide their employees with robust bags and cosmetic wear.
+  suffix: POI
+  components:
+  - type: VendingMachine
+    pack: UndergroundClothingDonkBags
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
